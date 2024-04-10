@@ -6,7 +6,7 @@ Application based on [Nest](https://github.com/nestjs/nest) framework
 
 -	Implement API for create dynamic form based on form title
 -	Implement API for fill form data based on form title
--	Implement API for get for field data based on form title
+-	Implement API for get form field data based on form title
 
 ## Prerequisites
 
@@ -49,14 +49,11 @@ Each applications needs to be started seperately using below commands
 ```bash
 # app_name - the name of the application you intent to run
 
-# development (can also be used for production once built)
-$ npm start -- <app_name>
-
 # build
-$ npm run build -- <app_name>
+$ npm run start
 
 # watch mode
-$ npm run start:dev -- <app_name>
+$ npm run start:dev
 ```
 
 ---
